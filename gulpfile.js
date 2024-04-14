@@ -8,7 +8,7 @@
 //     order = require('gulp-order');
 
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const connect = require('gulp-connect');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
