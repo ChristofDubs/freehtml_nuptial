@@ -905,13 +905,13 @@ google.maps.event.addDomListener(window, 'load', init);
 	};
 
 	// Set the date we're counting down to
-	var countDownDate = new Date("Aug 16, 2024 16:00:00").getTime();
+	var countDownDate = new Date("Aug 16, 2024 14:00:00 UTC").getTime();
 
 	// Update the count down every 1 second
 	var x = setInterval(function() {
 
 	// Get todays date and time
-	var now = new Date().getTime();
+	var now = Date.now();
 
 	// Find the distance between now an the count down date
 	var distance = countDownDate - now;
