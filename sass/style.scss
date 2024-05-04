@@ -234,6 +234,7 @@ figure {
 	position: relative;
 	height: 800px;
 	width: 100%;
+	background-position: center;
 	@media screen and (max-width :$screen-sm) {
 		height: 700px;
 	}
