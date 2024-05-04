@@ -911,12 +911,12 @@ figure {
 }
 
 #footer{
-	background: $brand-primary;
+	background: $brand-dark-footer;
 	padding: 60px 0 40px;
 
 	p{
 		color: rgba($brand-white,1);
-		font-size: 14px;
+		font-size: 10px;
 		a{
 			color: rgba($brand-white,.5);
 			&:hover, &:active, &:focus {

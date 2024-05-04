@@ -813,12 +813,12 @@ figure {
 }
 
 #footer {
-  background: #F69D9D;
+  background: #222831;
   padding: 60px 0 40px;
 }
 #footer p {
   color: white;
-  font-size: 14px;
+  font-size: 10px;
 }
 #footer p a {
   color: rgba(255, 255, 255, 0.5);
