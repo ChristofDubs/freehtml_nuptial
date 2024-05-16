@@ -576,6 +576,12 @@ figure {
   display: inline-block;
   font-family: "Montez", cursive;
 }
+@media screen and (max-width: 768px) {
+  #fh5co-countdown .countdown span {
+    margin: 0 5px;
+    font-size: 40px;
+  }
+}
 #fh5co-countdown .countdown small {
   display: block;
   font-size: 16px;

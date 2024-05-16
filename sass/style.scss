@@ -640,6 +640,10 @@ figure {
 			margin: 0 30px;
 			display: inline-block;
 			font-family: $font-secondary;
+			@media screen and (max-width :$screen-sm) {
+				margin: 0 5px;
+				font-size: 40px;
+			}
 		}
 		small{
 			display: block;
