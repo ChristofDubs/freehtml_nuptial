@@ -235,8 +235,9 @@ figure {
 	height: 800px;
 	width: 100%;
 	background-position: center;
+	background-repeat: no-repeat;
 	@media screen and (max-width :$screen-sm) {
-		height: 700px;
+		height: 600px;
 	}
 }
 .fh5co-overlay{

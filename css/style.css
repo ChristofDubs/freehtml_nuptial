@@ -139,11 +139,12 @@ figure {
   height: 800px;
   width: 100%;
   background-position: center;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
-    height: 700px;
+    height: 600px;
   }
 }
 
